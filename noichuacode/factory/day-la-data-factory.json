@@ -1,0 +1,9 @@
+{
+	"name": "day-la-data-factory",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dfa71fb4-7ae0-46ac-a31a-203915988c5b",
+		"tenantId": "2f173612-6f45-4520-9df8-32d7ba5f2c44"
+	}
+}
