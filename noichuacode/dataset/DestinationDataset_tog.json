@@ -1,0 +1,20 @@
+{
+	"name": "DestinationDataset_tog",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Lake2Lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ProductDetailHeader",
+				"fileSystem": "foundation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
