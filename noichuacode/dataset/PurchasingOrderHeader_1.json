@@ -1,0 +1,21 @@
+{
+	"name": "PurchasingOrderHeader_1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Lake2Lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "POH",
+				"folderPath": "POH",
+				"fileSystem": "foundation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
